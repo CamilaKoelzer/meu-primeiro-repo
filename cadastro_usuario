@@ -1,0 +1,20 @@
+#Lista de usuario predefinidos
+usuarios =[
+  {"nome": "Camila", "idade":31, "email": "camila_koelzer@hotmail.com"},
+  {"nome": "David", "idade":30, "email": "david.rosa@gmail.com"},
+  {"nome": "Joana", "idade":15, "email": "joana.mail@gmail.com"},
+  {"nome": "Maria", "idade":16, "email": "maria.mail@gmail.com"}
+]
+#Mostrar classificação e definição dos usuários
+def verificar_usuarios(lista):
+    for usuario in lista:
+        nome = usuario ["nome"]
+        idade = usuario ["idade"]
+        email = email ["email"]
+    if idade>=18:
+            maioridade ="Maior de idade"
+            status = "Ativo"
+    else:
+        maioridade = "menor de idade"
+        status = "inativo"
+        print (f"usuario: {nome} | idade: {idade} | email: {email} | {maioridade} | Status: {status}")
